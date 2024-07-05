@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>John Doe - CS Master's Student</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1rem;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .header-text {
+            text-align: left;
+        }
+        h1 {
+            margin-bottom: 0;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #ecf0f1;
+        }
+        nav {
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #ecf0f1;
+            text-decoration: none;
+            margin: 0 10px;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #3498db;
+        }
+        section {
+            background-color: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .project, .experience, .education {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .project, .experience {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s ease;
+        }
+        .project:hover, .experience:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .skill {
+            background-color: #3498db;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 2rem;
+            color: #7f8c8d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="Anant Profile Picture.JPG" alt="Anant Vishwakarma" class="profile-picture">
+        <div class="header-text">
+            <h1>Anant Vishwakarma</h1>
+            <p>Computer Science Master's Student</p>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Anant Vishwakarma, a passionate Computer Science master's student at XYZ University. I'm deeply interested in machine learning, data science, and software engineering. My goal is to leverage technology to solve real-world problems and make a positive impact on society.</p>
+    </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        <div class="education">
+            <h3>Master of Science in Computer Science</h3>
+            <p>University of California Davis, Expected Graduation: May 2025</p>
+            <ul>
+                <li>Specialization: Machine Learning and Artificial Intelligence</li>
+                <li>GPA: 3.9/4.0</li>
+                <li>Relevant Coursework: Advanced Algorithms, Machine Learning, Deep Learning, Big Data Analytics</li>
+            </ul>
+        </div>
+        <div class="education">
+            <h3>Bachelor of Technology in Computer Science</h3>
+            <p>SRM Institute of Science and Technology, KTR, Graduated: May 2023</p>
+            <ul>
+                <li>GPA: 3.8/4.0</li>
+                <li>Honors: Graduated with Distinction</li>
+                <li>Relevant Coursework: Data Structures, Database Management Systems, Software Engineering, Web Development</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="experience">
+        <h2>Work Experience</h2>
+        <div class="experience">
+            <h3>AI Intern - Lateetud</h3>
+            <p>June 2024 - Present</p>
+            <ul>
+                <li>Developed and implemented RAG models for querying healthcare and patient data</li>
+                <li>Collaborated with cross-functional teams to improve data-driven decision-making processes</li>
+                <li>Optimized data pipelines, reducing processing time by 30%</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Research Assistant - University of California Davis</h3>
+            <p>September 2023 - Present</p>
+            <ul>
+                <li>Assisting in a research project on applying AI in healthcare</li>
+                <li>Developing algorithms for medical image analysis</li>
+                <li>Co-authored two research papers accepted at international conferences</li>
+            </ul>
+        </div>
+        <div class="experience">
+            <h3>Teaching Assistant - University of California Davis</h3>
+            <p>September 2023 - Present</p>
+            <ul>
+                <li>Assisting in a research project on applying AI in healthcare</li>
+                <li>Developing algorithms for medical image analysis</li>
+                <li>Co-authored two research papers accepted at international conferences</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>AI Augmented Mapping for Preclincal to Clinical Trials</h3>
+            <p>Developed a machine learning model to predict climate change patterns using historical data and advanced algorithms.</p>
+        </div>
+        <div class="project">
+            <h3>Machine Learning for Climate Change Prediction</h3>
+            <p>Developed a machine learning model to predict climate change patterns using historical data and advanced algorithms.</p>
+        </div>
+        <div class="project">
+            <h3>Intelligent Traffic Management System</h3>
+            <p>Created a smart traffic management system using computer vision and IoT devices to optimize traffic flow in urban areas.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span class="skill">Python</span>
+            <span class="skill">Java</span>
+            <span class="skill">Machine Learning</span>
+            <span class="skill">Data Analysis</span>
+            <span class="skill">SQL</span>
+            <span class="skill">Git</span>
+            <span class="skill">Cloud Computing</span>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: abvishwakarma@ucdavis.edu</p>
+        <p>LinkedIn: https://www.linkedin.com/in/anant-vishwakarma-8759a5190/</p>
+        <p>GitHub: github.com/johndoe</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Anant Vishwakarma. All rights reserved.</p>
+    </footer>
+</body>
+</html>
